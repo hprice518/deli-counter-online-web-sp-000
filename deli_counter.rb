@@ -24,7 +24,7 @@ def now_serving(guest)
   if guest.length == 0 
     puts "There is nobody waiting to be served!"
   else
-      puts "Currently serving #{guest}."
+      puts "Currently serving #{guest[0]}."
       guest.shift
   end
 end
